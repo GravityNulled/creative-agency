@@ -3,7 +3,7 @@ import Logo from "../assets/Images/logo.png";
 import { BsArrowRight } from "react-icons/bs";
 const Header = () => {
   return (
-    <header className="fixed w-full">
+    <header className=" px-10 w-full">
       <nav className="flex items-center justify-between container mx-auto">
         <img src={Logo} alt="Logo" />
         <ul className="text-xl flex items-center justify-center space-x-6">

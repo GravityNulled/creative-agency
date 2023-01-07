@@ -4,7 +4,7 @@ import rectangle41 from "../assets/Images/Rectangle41.png";
 import rectangle39 from "../assets/Images/Rectangle39.png";
 const Hero = () => {
   return (
-    <section className="py-20 bg-[#F7F9FD]">
+    <section className="p-10 bg-[#F7F9FD]">
       <div className="container mx-auto">
         <div className="grid grid-cols-2 mt-10 p-4">
           {/* Right */}
@@ -20,7 +20,7 @@ const Hero = () => {
               tincidunt quisque faucibus velit felis tincidunt. Turpis platea
               sed arcu aliquam lorem in. In ut mattis faucibus purus.
             </p>
-            <button className="bg-black w-[100px] py-3 mt-6 text-white">Contact Us</button>
+            <button className="bg-black w-[200px] py-5 mt-6 text-white">Contact Us</button>
           </div>
           {/* Left */}
           <div className="flex flex-wrap">
