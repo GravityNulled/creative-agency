@@ -2,7 +2,7 @@ import React from "react";
 import rectangle84 from "../assets/Images/Rectangle84.png";
 const About = () => {
   return (
-    <section className="px-10 ">
+    <section className="px-10 " id="">
       <div className="container mx-auto grid grid-cols-2 items-center">
         <img src={rectangle84} alt="/" />
         <div className="flex py-14 flex-col">

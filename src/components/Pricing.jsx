@@ -4,12 +4,12 @@ import startup from "../assets/Images/startup.png";
 import diamonds from "../assets/Images/diamonds.png";
 const Pricing = () => {
   return (
-    <section className="p-10">
+    <section className="p-10" id="pricing">
       <div className="container mx-auto text-center">
         <h2 className="py-4 text-2xl">Pricing Plan</h2>
         <span className="font-bold py-8 text-4xl">Our Affordable Pricing</span>
         <div className="grid grid-cols-3 w-[1000px] mx-auto">
-          <div className="flex flex-col border mt-9 rounded-lg p-8 min-h-[400px] w-[300px] items-center gap-3">
+          <div className="flex flex-col border mt-9 rounded-lg cursor-pointer hover:scale-105 transition-all duration-300 p-8 min-h-[400px] w-[300px] items-center gap-3">
             <h1>Personal</h1>
             <img src={gears} alt="/" className="w-[50px] m-2" />
             <p className="text-3xl">
@@ -22,7 +22,7 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="flex flex-col border mt-9 rounded-lg p-8 min-h-[400px] w-[300px] items-center gap-3">
+          <div className="flex flex-col border cursor-pointer hover:scale-105 transition-all duration-300 mt-9 rounded-lg p-8 min-h-[400px] w-[300px] items-center gap-3">
             <h1>Small Team</h1>
             <img src={gears} alt="/" className="w-[50px] m-2" />
             <p className="text-3xl">
@@ -35,7 +35,7 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="flex flex-col border mt-9 rounded-lg p-8 min-h-[400px] w-[300px] items-center gap-3">
+          <div className="flex flex-col border cursor-pointer hover:scale-105 transition-all duration-300 mt-9 rounded-lg p-8 min-h-[400px] w-[300px] items-center gap-3">
             <h1>Personal</h1>
             <img src={gears} alt="/" className="w-[50px] m-2" />
             <p className="text-3xl">

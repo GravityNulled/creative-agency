@@ -8,7 +8,7 @@ import code from "../assets/Images/code.png";
 import creative from "../assets/Images/creative.png";
 const Services = () => {
   return (
-    <section className="px-10 ">
+    <section className="px-10" id="services">
       <div className="container mx-auto grid grid-cols-2 items-center ">
         <div className="flex py-14 flex-col">
           <div className="flex items-center gap-2">

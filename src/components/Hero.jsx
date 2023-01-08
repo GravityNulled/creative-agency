@@ -4,7 +4,7 @@ import rectangle41 from "../assets/Images/Rectangle41.png";
 import rectangle39 from "../assets/Images/Rectangle39.png";
 const Hero = () => {
   return (
-    <section className="p-10 bg-[#F7F9FD]">
+    <section className="p-10 bg-[#F7F9FD]" id="hero">
       <div className="container mx-auto">
         <div className="grid grid-cols-2 mt-10 p-4">
           {/* Right */}

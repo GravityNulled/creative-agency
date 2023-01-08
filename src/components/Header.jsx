@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/Images/logo.png";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-scroll";
 const Header = () => {
   return (
     <header className=" px-10 w-full">
@@ -8,24 +9,61 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
         <ul className="text-xl flex items-center justify-center space-x-6">
           <li>
-            <a href="#">Home</a>
+            <Link
+              className="hover:cursor-pointer hover:text-yellow-500"
+              to="/"
+              smooth={true}
+              spy={true}
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#Hero">About Us</a>
+            <Link
+              className="hover:cursor-pointer hover:text-yellow-500"
+              to="hero"
+              smooth={true}
+              spy={true}
+            >
+              About Us
+            </Link>
           </li>
           <li>
-            <a href="#Project">Works</a>
+            <Link
+              className="hover:cursor-pointer hover:text-yellow-500"
+              to="testimonials"
+              smooth={true}
+              spy={true}
+            >
+              Testimonials
+            </Link>
           </li>
           <li>
-            <a href="#Blogs">Blogs</a>
+            <Link
+              className="hover:cursor-pointer hover:text-yellow-500"
+              to="pricing"
+              smooth={true}
+              spy={true}
+            >
+              Pricing
+            </Link>
           </li>
           <li>
-            <a href="#Contact">Contact us</a>
+            <Link
+              className="hover:cursor-pointer hover:text-yellow-500"
+              to="blogs"
+              smooth={true}
+              spy={true}
+            >
+              Blogs
+            </Link>
           </li>
         </ul>
         <button className="relative flex items-center space-x-2">
-          <span className="font-semibold">Let's Talk</span>
-          <BsArrowRight />
+          <span className="font-semibold hover:text-yellow-500">
+            Let's Talk
+          </span>
+          <BsArrowRight className="hover:cursor-pointer hover:text-yellow-500" />
         </button>
       </nav>
     </header>
